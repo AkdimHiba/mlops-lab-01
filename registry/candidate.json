@@ -1,0 +1,28 @@
+{
+  "run_id": "a8b6f5f0c8394a4ba95d39c7511a159e",
+  "version": "v2",
+  "trained_at_utc": "2026-11-13T20:58:50.253298+00:00",
+  "seed": 42,
+  "sklearn_version": "1.9.1",
+  "model_file": "candidate.joblib",
+  "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+  "data_sha256": "39643e353182e0002bdd72f17b1637badd58fbdead8062a766d1baada2cebe5d",
+  "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+  "features": [
+    "tenure_months",
+    "num_complaints",
+    "avg_session_minutes",
+    "plan_type",
+    "region"
+  ],
+  "target": "churn",
+  "threshold": 0.31,
+  "threshold_selected_on": "validation",
+  "validation_f1": 0.7215686274509804,
+  "baseline_class": 1,
+  "split_rows": {
+    "train": 720,
+    "validation": 180,
+    "test": 300
+  }
+}

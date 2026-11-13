@@ -1,0 +1,143 @@
+[
+  {
+    "run_id": "d5e63e9ebb0d4f8f98562f016a50fff3",
+    "version": "v1",
+    "trained_at_utc": "2026-10-24T11:06:37.833870+00:00",
+    "seed": 42,
+    "sklearn_version": "1.9.1",
+    "model_file": "churn_model_d5e63e9ebb0d4f8f98562f016a50fff3.joblib",
+    "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+    "data_sha256": "39643e353182e0002bdd72f17b1637badd58fbdead8062a766d1baada2cebe5d",
+    "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+    "features": [
+      "tenure_months",
+      "num_complaints",
+      "avg_session_minutes",
+      "plan_type",
+      "region"
+    ],
+    "target": "churn",
+    "threshold": 0.31,
+    "threshold_selected_on": "validation",
+    "validation_f1": 0.7215686274509804,
+    "baseline_class": 1,
+    "split_rows": {
+      "train": 720,
+      "validation": 180,
+      "test": 300
+    },
+    "registered_at_utc": "2026-10-24T11:10:44.515049+00:00",
+    "metrics": {
+      "run_id": "d5e63e9ebb0d4f8f98562f016a50fff3",
+      "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+      "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+      "candidate_metadata_sha256": "86186b400397190eadd59f1c36f03791d9cacb09f8878040f1b3174421dd1d39",
+      "evaluated_at_utc": "2026-10-24T11:08:31.212631+00:00",
+      "test_rows": 300,
+      "threshold": 0.31,
+      "accuracy": 0.5933333333333334,
+      "precision": 0.5736434108527132,
+      "recall": 0.925,
+      "f1": 0.7081339712918661,
+      "f1_threshold_05": 0.6790123456790124,
+      "baseline_class": 1,
+      "baseline_f1": 0.6956521739130435
+    },
+    "gate_f1": 0.7,
+    "passed_gate": true
+  },
+  {
+    "run_id": "b9ae3acc99174392a57ad4e8df787798",
+    "version": "v1",
+    "trained_at_utc": "2026-11-13T20:41:51.395967+00:00",
+    "seed": 42,
+    "sklearn_version": "1.9.1",
+    "model_file": "churn_model_b9ae3acc99174392a57ad4e8df787798.joblib",
+    "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+    "data_sha256": "39643e353182e0002bdd72f17b1637badd58fbdead8062a766d1baada2cebe5d",
+    "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+    "features": [
+      "tenure_months",
+      "num_complaints",
+      "avg_session_minutes",
+      "plan_type",
+      "region"
+    ],
+    "target": "churn",
+    "threshold": 0.31,
+    "threshold_selected_on": "validation",
+    "validation_f1": 0.7215686274509804,
+    "baseline_class": 1,
+    "split_rows": {
+      "train": 720,
+      "validation": 180,
+      "test": 300
+    },
+    "registered_at_utc": "2026-11-13T20:44:41.565277+00:00",
+    "metrics": {
+      "run_id": "b9ae3acc99174392a57ad4e8df787798",
+      "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+      "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+      "candidate_metadata_sha256": "46f3dd34859e770827b80c7884d3c5554d68f64802d55632147fd799f5d830fb",
+      "evaluated_at_utc": "2026-11-13T20:43:23.868112+00:00",
+      "test_rows": 300,
+      "threshold": 0.31,
+      "accuracy": 0.5933333333333334,
+      "precision": 0.5736434108527132,
+      "recall": 0.925,
+      "f1": 0.7081339712918661,
+      "f1_threshold_05": 0.6790123456790124,
+      "baseline_class": 1,
+      "baseline_f1": 0.6956521739130435
+    },
+    "gate_f1": 0.7,
+    "passed_gate": true
+  },
+  {
+    "run_id": "a8b6f5f0c8394a4ba95d39c7511a159e",
+    "version": "v2",
+    "trained_at_utc": "2026-11-13T20:58:50.253298+00:00",
+    "seed": 42,
+    "sklearn_version": "1.9.1",
+    "model_file": "churn_model_a8b6f5f0c8394a4ba95d39c7511a159e.joblib",
+    "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+    "data_sha256": "39643e353182e0002bdd72f17b1637badd58fbdead8062a766d1baada2cebe5d",
+    "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+    "features": [
+      "tenure_months",
+      "num_complaints",
+      "avg_session_minutes",
+      "plan_type",
+      "region"
+    ],
+    "target": "churn",
+    "threshold": 0.31,
+    "threshold_selected_on": "validation",
+    "validation_f1": 0.7215686274509804,
+    "baseline_class": 1,
+    "split_rows": {
+      "train": 720,
+      "validation": 180,
+      "test": 300
+    },
+    "registered_at_utc": "2026-11-13T20:59:17.492751+00:00",
+    "metrics": {
+      "run_id": "a8b6f5f0c8394a4ba95d39c7511a159e",
+      "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+      "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+      "candidate_metadata_sha256": "0db61f5656af92baa167aec503bb5bf63138a4fe745b99a8d7f9ffa7441b4701",
+      "evaluated_at_utc": "2026-11-13T20:59:02.962865+00:00",
+      "test_rows": 300,
+      "threshold": 0.31,
+      "accuracy": 0.5933333333333334,
+      "precision": 0.5736434108527132,
+      "recall": 0.925,
+      "f1": 0.7081339712918661,
+      "f1_threshold_05": 0.6790123456790124,
+      "baseline_class": 1,
+      "baseline_f1": 0.6956521739130435
+    },
+    "gate_f1": 0.7,
+    "passed_gate": true
+  }
+]

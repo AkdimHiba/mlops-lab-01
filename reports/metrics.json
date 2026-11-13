@@ -1,0 +1,16 @@
+{
+  "run_id": "a8b6f5f0c8394a4ba95d39c7511a159e",
+  "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+  "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+  "candidate_metadata_sha256": "0db61f5656af92baa167aec503bb5bf63138a4fe745b99a8d7f9ffa7441b4701",
+  "evaluated_at_utc": "2026-11-13T20:59:02.962865+00:00",
+  "test_rows": 300,
+  "threshold": 0.31,
+  "accuracy": 0.5933333333333334,
+  "precision": 0.5736434108527132,
+  "recall": 0.925,
+  "f1": 0.7081339712918661,
+  "f1_threshold_05": 0.6790123456790124,
+  "baseline_class": 1,
+  "baseline_f1": 0.6956521739130435
+}
